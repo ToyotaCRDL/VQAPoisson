@@ -1,4 +1,4 @@
-# Variational quantum algorithm based on the minimimum potential energy for solving the Poisson equation
+# Variational quantum algorithm based on the minimum potential energy for solving the Poisson equation
 
 [![python](https://img.shields.io/badge/python-v3.7.4-blue)](https://www.python.org/downloads/release/python-374/)
 [![license](https://img.shields.io/badge/license-Apache%202.0-blue)](https://opensource.org/licenses/Apache-2.0)
