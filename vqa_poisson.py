@@ -442,7 +442,7 @@ class VQAforPoisson():
         else:
             raise ValueError('Invalid boundary condition setting. Boundary condition is either "Periodic", "Neumann", or "Dirichlet".')
 
-        A = A0 + A1 - B + c*np.ones((2**self.num_qubits, 2**self.num_qubits))
+        A = A0 + A1 - B + c*np.eye(2**self.num_qubits)
 
         return A
 
